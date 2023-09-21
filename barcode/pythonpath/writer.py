@@ -12,5 +12,5 @@ def getWord( view ):
         cursor.gotoEndOfWord( True )
         return cursor
     except:
-        # there is a large number of cases (such as when an inserted image is selected) when we can not get the word
+        # There is a large number of cases (such as when an inserted image is selected) when we can not get the word.
         return None
