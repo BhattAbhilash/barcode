@@ -3,7 +3,7 @@
 #    import sys;sys.path.append(r/some/path/eclipse/plugins/org.python.pydev.core_6.5.0.201809011628/pysrc)
 #    import pydevd;pydevd.settrace()
 # Place pydevd.settrace() before the line you want the debugger to stop and
-# start debugging your extension (right click on project -> Debug As -> LibreOffice extension)
+# start debugging your extension (right click on project -> Debug As -> LibreOffice extension).
 # You need to manually switch to debug view in Eclipse then.
 
 import sys
